@@ -1,0 +1,136 @@
+Module 5 - Exercise 1 Plan - Ezra Hutchins
+
+3 rounds - Jeopardy!, Double Jeopardy!, and Final Jeopardy!
+
+3 players playing in random but repeated order
+
+6 categories, 5 questions per category - 60 total questions between rounds 1 and 2, 1 final question for Final Jeopardy
+
+possible module:
+
+input contestant1Answer
+if contestant1Answer <> correctAnswer
+	contestant1Score - prize
+	input contestant2Answer
+	if contestant2Answer <> correctAnswer
+		contestant2Score - prize
+		input contestant3Answer
+		if contestant3Answer <> correctAnswer
+			contestant3Score - prize
+			output correctAnswer
+		else
+			contestant3Score + prize
+		endif
+	else
+		contestant2Score + prize
+	endif
+else
+	contestant1Score + prize
+endif
+input category
+if category = firstCategory
+	input questionObscured
+	if questionObscured = 200
+		output categoryOneQuestionOne
+		prize = 200
+	if questionObscured = 400
+		output categoryOneQuestionTwo
+		prize = 400
+	if questionObscured = 600
+		output categoryOneQuestionThree
+		prize = 600
+	if questionObscured = 800
+		output categoryOneQuestionFour
+		prize = 800
+	if questionObscured = 1000
+		output categoryOneQuestionFive
+		prize = 1000
+if category = secondCategory
+	input questionObscured
+	if questionObscured = 200
+		output categoryTwoQuestionOne
+		prize = 200
+	if questionObscured = 400
+		output categoryTwoQuestionTwo
+		prize = 400
+	if questionObscured = 600
+		output categoryTwoQuestionThree
+		prize = 600
+	if questionObscured = 800
+		output categoryTwoQuestionFour
+		prize = 800
+	if questionObscured = 1000
+		output categoryTwoQuestionFive
+		prize = 1000
+if category = thirdCategory
+	input questionObscured
+	if questionObscured = 200
+		output categoryThreeQuestionOne
+		prize = 200
+	if questionObscured = 400
+		output categoryThreeQuestionTwo
+		prize = 400
+	if questionObscured = 600
+		output categoryThreeQuestionThree
+		prize = 600
+	if questionObscured = 800
+		output categoryThreeQuestionFour
+		prize = 800
+	if questionObscured = 1000
+		output categoryThreeQuestionFive
+		prize = 1000
+if category = fourthCategory
+	input questionObscured
+	if questionObscured = 200
+		output categoryFourQuestionOne
+		prize = 200
+	if questionObscured = 400
+		output categoryFourQuestionTwo
+		prize = 400
+	if questionObscured = 600
+		output categoryFourQuestionThree
+		prize = 600
+	if questionObscured = 800
+		output categoryFourQuestionFour
+		prize = 800
+	if questionObscured = 1000
+		output categoryFourQuestionFive
+		prize = 1000
+if category = fifthCategory
+	input questionObscured
+	if questionObscured = 200
+		output categoryFiveQuestionOne
+		prize = 200
+	if questionObscured = 400
+		output categoryFiveQuestionTwo
+		prize = 400
+	if questionObscured = 600
+		output categoryFiveQuestionThree
+		prize = 600
+	if questionObscured = 800
+		output categoryFiveQuestionFour
+		prize = 800
+	if questionObscured = 1000
+		output categoryFiveQuestionFive
+		prize = 1000
+if category = sixthCategory
+	input questionObscured
+	if questionObscured = 200
+		output categorySixQuestionOne
+		prize = 200
+	if questionObscured = 400
+		output categorySixQuestionTwo
+		prize = 400
+	if questionObscured = 600
+		output categorySixQuestionThree
+		prize = 600
+	if questionObscured = 800
+		output categorySixQuestionFour
+		prize = 800
+	if questionObscured = 1000
+		output categorySixQuestionFive
+		prize = 1000
+
+I may be thinking too hard about this...
+dumb it down and be less serious for flowhchart.
+
